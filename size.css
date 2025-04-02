@@ -1,0 +1,158 @@
+@media (max-width: 1200px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid-aboutme {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .main-nav,
+  .social-links-header {
+    transition: all 0.5s ease-in;
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+
+}
+
+@media (max-width: 770px) {
+  html {
+    font-size: 70%;
+  }
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .resume-pdf {
+    height: 800px;
+}
+
+}
+
+@media (max-width: 480px) {
+  .resume-pdf {
+      height: 500px;
+  }
+}
+
+
+/* 27 inch */
+@media (min-width: 2560px) {
+  .container {
+    width: 58%;
+  }
+
+  .header {
+    height: 75px;
+  }
+
+  .name {
+    font-size: 40px;
+  }
+
+  .main-nav-list {
+    font-size: 26px;
+  }
+
+  .social-links-header {
+    gap: 45px;
+    padding: 0 50px;
+  }
+
+  .social-icon {
+    height: 2.6rem;
+    width: 2.6rem;
+  }
+
+  .largetext-1 {
+    font-size: 60px;
+    font-weight: 500;
+    color: black;
+  }
+  
+  .largetext-2 {
+    font-size: 95px;
+    font-weight: 700;
+    color: #04335a;
+    margin-bottom: 45px;
+  }
+
+  .self-intro {
+    font-size: 26px;
+  }
+
+  .profile-picture {
+    height: 700px;
+  }
+
+  .all-blogs {
+    font-size: 25px;
+  }
+
+  .number {
+    font-size: 120px;
+  }
+
+  .heading-skills {
+    font-size: 38px;
+  }
+
+  .skill-description {
+    font-size: 23px;
+  }
+
+  .skill-img {
+    width: 500px;
+  }
+
+  .heading {
+    font-size: 40px;
+  }
+
+  .text-header {
+    font-size: 25px;
+  }
+  .text-subheader {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .text-content {
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  .project-content {
+    width: 380px;
+    height: 550px;
+    padding: 25px;
+  }
+
+  .project-content img {
+    height: 220px;
+    width: auto;
+  }
+
+  .btn,
+  .btn:link,
+  .btn:visited {
+    font-size: 21px;
+    padding: 0.8rem 1.4rem;
+  }
+
+  .blog-content {
+    height: 440px;
+    width: 380px;
+    padding: 25px;
+  }
+
+  .btn-underline,
+  .btn-underline:link,
+  .btn-underline:visited  {
+    font-size: 22px;
+  }
+
+  .copyright {
+    font-size: 18px;
+  }
+}

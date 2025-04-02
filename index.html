@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jolie Pham | Portfolio</title>
+    <style>
+      a {
+        text-decoration: none;
+      }
+    </style>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="size.css" />
+
+    <script src="script.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script
+    defer
+    src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li class="main-nav-link">
+            <a href="#section-home" alt="Home">Home</a>
+          </li>
+          <li class="main-nav-link">
+            <a href="#about" alt="About">About</a>
+          </li>
+          <li class="main-nav-link">
+            <a href="#projects" alt="Projects">Projects</a>
+          </li>
+          <li class="main-nav-link">
+            <a href="#section-resume" alt="Resume">Resume</a>
+          </li>
+          <li class="main-nav-link">
+            <a href="#blogs" alt="Blog">Blog</a>
+          </li>
+        </ul>
+      </nav>
+
+      <h1 class="name">
+        <a href="/">JOLIE</a>
+      </h1>
+
+      <div>
+        <ul class="social-links-header">
+          <li>
+            <a
+              class="social-media"
+              target="_blank"
+              href="mailto:phuonganh382000@gmail.com"
+              ><ion-icon
+                class="social-icon"
+                name="mail-open-outline"
+                style="color: #940b12"
+              ></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a
+              class="social-media"
+              target="_blank"
+              href="https://github.com/phuonganh-38"
+              ><ion-icon
+                class="social-icon"
+                name="logo-github"
+                style="color: #940b12"
+              ></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a
+              class="social-media"
+              target="_blank"
+              href="https://www.linkedin.com/in/phuonganh38/"
+              ><ion-icon
+                class="social-icon"
+                name="logo-linkedin"
+                style="color: #940b12"
+              ></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a
+              class="social-media"
+              target="_blank"
+              href="https://public.tableau.com/app/profile/phuong.anh.pham6362/vizzes"
+              ><ion-icon
+                class="social-icon"
+                name="logo-tableau"
+                style="color: #940b12"
+              ></ion-icon
+            ></a>
+          </li>
+        </ul>
+        <button class="btn-mobile-nav">
+          <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+          <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <!-- SECTION HOME -->
+      <div class="container">
+        <section id="section-home">
+          <div class="home">
+            <div class="intro">
+              <div class="largetext-1">Hey!&nbsp; I'm</div>
+              <div class="largetext-2">Jolie Pham</div>
+              <p class="self-intro">As a data analyst with a strong foundation in Economics, Statistics, and Probability, 
+                I specialize in data acquisition, preprocessing, and visualization to transform raw data into actionable insights.</p>
+            </div>
+            <div class="profile-picture">
+              <img src="picture/profile-picture.png" alt="Profile Picture" />
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- SECTION ABOUT -->
+      <div class="container">
+        <section id="about" class="section-about">
+          <div>
+            <div class="center-text">
+              <span class="heading">ABOUT ME</span>
+            </div>
+            <div class="container-1 grid-aboutme grid-center-vertical">
+              <!-- 01 -->
+              <div class="skills">
+                <span class="number">01</span>
+                <div class="heading-skills">Data acquisition & Processing</div>
+                <p class="skill-description">
+                  Experienced in web scraping using <strong>Selenium, BeautifulSoup</strong>.
+                </p>
+                <p class="skill-description">
+                  Built <strong>AutoClean AI</strong>, an AI-powered tool that automates data cleaning, saving hours of manual work.
+                </p>
+                <p class="skill-description">
+                  Worked with <strong>large-scale datasets</strong> (up to <strong>800M rows</strong>) using <strong>Databricks, Snowflake, PostgreSQL, DBeaver</strong>.
+                </p>
+              </div>
+    
+              <div class="skill-img-box">
+                <img src="picture/skill.png"
+                class="skill-img"
+                alt="skill-1"/>
+              </div>
+    
+              <!-- 02 -->
+              <div class="skill-img-box">
+                <img src="picture/AutoClean AI.png"
+                class="skill-img"
+                alt="skill-2"/>
+              </div>
+    
+              <div class="skills">
+                <span class="number">02</span>
+                <div class="heading-skills">EDA & Modelling</div>
+                <p class="skill-description">
+                  Proficient in <strong>Python (Pandas, NumPy, scikit-learn)</strong> for data wrangling, EDA, and machine learning.
+                </p>
+                <p class="skill-description">
+                  Developed multiple projects applying <strong>statistical analysis</strong> and <strong>data science techniques</strong>.
+                </p>
+                <div class="home-learn-more">
+                  <a href = "https://github.com/phuonganh-38" target="_blank" class="btn-underline">Learn more &rarr;</a>
+                </div>
+              </div>
+    
+              <!-- 03 -->
+              <div class="skills">
+                <span class="number">03</span>
+                <div class="heading-skills">Data Visualisation</div>
+                <p class="skill-description">
+                  <strong>Tableau Certified Data Analyst</strong>, skilled in <strong>Power BI, Plotly</strong>.
+                </p>
+                <p class="skill-description">
+                  Created high-impact dashboards with <strong>thousands of views</strong> on Tableau Public.
+                </p>
+                <p class="skill-description">
+                  Passionate about data storytelling and data science, sharing knowledge via <strong>DataTales, my blog on Data Science & Visualization</strong>.
+                </p>
+              </div>
+    
+              <div class="skill-img-box">
+                <img src="picture/Tableau Certified Data Analyst certificate.png"
+                class="skill-img"
+                alt="skill-2"/>
+              </div>
+    
+          </div>
+        </section>
+      </div>
+
+      <!-- SECTION PROJECTS -->
+      <div class = "container">
+        <section class="section-projects" id="projects">
+          <div class="box">
+            <div class="center-text">
+              <span class="heading">PROJECTS</span>
+            </div>
+            
+            <div class="grid margin-bottom-md">
+              <!-- PROJECT 1 -->
+              <div class="project-content">
+                <div class="text-subheader">PROJECT</div>
+                <div class="text-header margin-10">
+                  <a href="https://public.tableau.com/app/profile/phuong.anh.pham6362/viz/GlobalMentalHealthDashboard/GlobalLandscapeofMentalHealth" target="_blank">Global mental health dashboard</a>
+                </div>
+                <div class="project-pic">
+                  <img
+                  src="picture/project_1.png"
+                  alt="Global Mental Health Dashboard"/>
+                </div>
+                <div class="text-content">
+                  <p>An interactive <strong>Tableau-powered dashboard</strong> unraveling the Global Mental Health crisis, guiding users from high-level trends to an in-depth disorder breakdown through dynamic storytelling.</p>
+                </div>
+                <div>
+                  <a
+                    href="https://public.tableau.com/app/profile/phuong.anh.pham6362/viz/GlobalMentalHealthDashboard/GlobalLandscapeofMentalHealth"
+                    target="_blank" class="btn btn--full">Learn more</a>            
+                </div>
+              </div>
+      
+              <!-- PROJECT 2 -->
+              <div class="project-content">
+                <div class="text-subheader">PROJECT</div>
+                <div class="text-header margin-10">
+                  <a href="https://github.com/phuonganh-38/rental_market_trend_analysis" target="_blank">Rental market trend analysis</a>
+                </div>
+                <div class="project-pic">
+                  <img
+                  src="picture/project_2.png"
+                  alt="Rental Market Trend Analysis"
+                  sm:h-[276px]
+                  h-fit/>
+                </div>
+                <div class="text-content">
+                  <p>An end-to-end rental market analysis leveraging <strong>web scraping, SQL</strong>, and data visualization — transforming raw data into actionable insights that empower stakeholders with informed decision-making and optimized rental strategies.</p>
+                </div>
+                <div>
+                  <a
+                    href="https://github.com/phuonganh-38/rental_market_trend_analysis"
+                    target="_blank" class="btn btn--full">Learn more</a>            
+                </div>
+              </div>
+    
+              <!-- PROJECT 3 -->
+              <div class="project-content">
+                <div class="text-subheader">PROJECT</div>
+                <div class="text-header margin-10">
+                  <a href="https://github.com/phuonganh-38/deep-learning-diagnosis-melanoma" target="_blank">Deep Learning system for<br> diagnosis of Melanoma</a>
+                </div>
+                <div class="project-pic">
+                  <img
+                  src="picture/project_3.png"
+                  alt="DEEP LEARNING SYSTEM FOR DIFFERENTIAL DIAGNOSIS OF MELANOMA"/>
+                </div>
+                <div class="text-content">
+                  <p>This project leverages <strong>deep learning</strong> to classify images as Melanoma or Non-melanoma, aiming to support dermatologists in making more accurate diagnostic decisions.
+                  </p>
+                </div>
+                <div>
+                  <a
+                    href="https://github.com/phuonganh-38/deep-learning-diagnosis-melanoma"
+                    target="_blank" class="btn btn--full">Learn more</a>            
+                </div> 
+              </div>
+    
+              <!-- PROJECT 4 -->
+              <div class="project-content">
+                <div class="text-subheader">PROJECT</div>
+                <div class="text-header margin-10">
+                  <a href="https://public.tableau.com/app/profile/phuong.anh.pham6362/viz/AustralianEmploymentDashboard_17338093943480/Employmentdashboard" target="_blank">Australian employment dashboard</a>
+                </div>
+                <div class="project-pic">
+                  <img
+                  src="picture/project_4.png"
+                  alt="Australian Employment Dashboard"/>
+                </div>
+                <div class="text-content">
+                  <p>An interactive <strong>Tableau dashboard</strong> offering a three-year analysis of Australia's employment landscape, unraveling trends in unemployment and workforce participation across major cities.</p>
+                </div>
+                <div>
+                  <a
+                    href="https://public.tableau.com/app/profile/phuong.anh.pham6362/viz/AustralianEmploymentDashboard_17338093943480/Employmentdashboard"
+                    target="_blank" class="btn btn--full">Learn more</a>            
+                </div> 
+              </div>
+
+              <!-- PROJECT 5 -->
+              <div class="project-content">
+                <div class="text-subheader">PROJECT</div>
+                <div class="text-header margin-10">
+                  <a href="https://autoclean-tool.streamlit.app/" target="_blank">AutoClean AI</a>
+                </div>
+                <div class="project-pic">
+                  <img
+                  src="picture/project_5.png"
+                  alt="Australian Employment Dashboard"/>
+                </div>
+                <div class="text-content">
+                  <p>An intelligent, AI-powered data preprocessing tool that <strong>automates data cleaning</strong> while providing <strong>powerful visualizations</strong> for exploring variable distributions and relationships.</p>
+                </div>
+                <div class="project-5-button">
+                  <a href="https://autoclean-tool.streamlit.app/"
+                    target="_blank" class="btn btn--full">App</a>
+                  <a href="https://github.com/phuonganh-38/AutoClean-tool"
+                    target="_blank" class="btn btn--full">Learn more</a>
+                </div> 
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- SECTION RESUME -->
+      <div class="container">
+        <section id="section-resume" class="section-resume">
+          <div>
+            <div class="container center-text">
+            <span class="heading">RESUME</span>
+            <embed class="resume-pdf" src="/Resume.pdf" type="application/pdf"/>
+
+          </div>
+        </section>
+      </div>
+
+      <div class="container">
+        <section id="blogs" class="section-blog">
+          <div class="box">
+            <div class="center-text">
+              <span class="heading">BLOGS</span>
+            </div>
+            
+            <div class="grid margin-bottom-md">
+              <!-- BLOG 1 -->
+              <div class="blog-content">
+                <div class="text-subheader">BLOG</div>
+                <div class="text-header margin-10">
+                  <a href="https://data-tales.com/art-of-choosing-right-graph/index.html">
+                  The Art of choosing right graph. Telling a story with your data
+                  </a>
+                </div>
+                <p class="text-content">I still remember the first time I had to present data in a university
+                  class - my professor was there, along with a lot of my classmates. I had a beautifully detailed dataset, 
+                  and what I thought was a well-prepared presentation. But when I put my charts on
+                  the screen, I could see the confusion on everyone's face. The number was there, but the story was lost. </p>
+                <div>
+                  <a href = "https://data-tales.com/art-of-choosing-right-graph/index.html" target="_blank" class="btn-underline no-margin">Continue reading &rarr;</a>
+                </div>
+              </div>
+
+              <!-- BLOG 2 -->
+              <div class="blog-content" >
+                <div class="text-subheader">BLOG</div>
+                <div class="text-header margin-10">
+                  <a href="https://data-tales.com/how-AI-cuts-hours-of-manual-work/index.html">How AI cuts hours of manual work?</a>
+                </div>
+                <p class="text-content">Studies find that data analysts spend up to 80% of their time cleaning data before they can even begin analysis. 
+                  Messy, incomplete, and inconsistent data slow down workflows, introduce errors and often lead to poor model performance. 
+                  Despite its critical role, data cleaning remains a tedious and repetitive process.</p>
+                <p class="text-content"><i><strong>What if a tool could automate it?</strong></i></p>
+                <div>
+                  <a href = "https://data-tales.com/how-AI-cuts-hours-of-manual-work/index.html" target="_blank" class="btn-underline no-margin">Continue reading &rarr;</a>
+                </div>
+              </div>
+  
+              <!-- BLOG 3 -->
+              <div class="blog-content">
+                <div class="text-subheader">BLOG</div>
+                <div class="text-header margin-10">
+                  <a href="https://data-tales.com/how-netflix-uses-AB-testing-to-make-you-watching/index.html">How Netflix uses A/B Testing to keep you watching?</a>
+                </div>
+                <p class="text-content"><strong><i>Imagine this</i></strong> - You open Netflix, scroll through your recommendations, and a striking movie thumbnail catches your eye. Without thinking twice, you click on it. 
+                  But did you know that Netflix has tested multiple versions of that thumbnail before deciding which one to show you?</p>
+                <div>
+                  <a href = "https://data-tales.com/how-netflix-uses-AB-testing-to-make-you-watching/index.html" target="_blank" class="btn-underline no-margin">Continue reading &rarr;</a>
+                </div>
+              </div>
+
+              <!-- BLOG 4 -->
+              <div class="blog-content">
+                <div class="text-subheader">BLOG</div>
+                <div class="text-header margin-10">
+                  <a href="https://data-tales.com/thinking-analyst/index.html">Thinking like a Data Analyst</a>
+                </div>
+                <p class="text-content">Let’s say we’ve just received a new dataset. And as expected, it’s messy, overwhelming, and full of numbers that don’t seem to tell a clear story. 
+                  As data analysts, our job is not just about crunching numbers, it’s about transform that chaos into valuable insights. <br> 
+                  But how do we make sense of raw data and turn it into something actionable?</p>
+                <p class="text-content">It’s all start with mindset.</p>
+                <div>
+                  <a href = "https://data-tales.com/how-netflix-uses-AB-testing-to-make-you-watching/index.html" target="_blank" class="btn-underline no-margin">Continue reading &rarr;</a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="center-text">
+              <a href="https://data-tales.com/" target="_blank" class="all-blogs"> See all blog posts &rarr;</a>
+          </div>
+        </section>
+      </div>
+
+      </main>
+      
+      <footer>
+        <ul class="social-links-footer">
+          <li>
+            <a class="social-media" target="_blank" href="mailto: phuonganh382000@gmail.com"><ion-icon class="social-icon" name="mail-open-outline" style="color: white"></ion-icon></a>
+          </li>
+          <li>
+            <a class="social-media" target="_blank" href="https://github.com/phuonganh-38"><ion-icon class="social-icon" name="logo-github" style="color: white"></ion-icon></a>
+          </li>
+          <li>
+            <a class="social-media" target="_blank" href="https://www.linkedin.com/in/phuonganh38/"><ion-icon class="social-icon" name="logo-linkedin" style="color: white"></ion-icon></a>
+          </li>
+          <li>
+            <a class="social-media" target="_blank" href="https://public.tableau.com/app/profile/phuong.anh.pham6362/vizzes"><ion-icon class="social-icon" name="logo-tableau" style="color: white"></ion-icon></a>
+          </li>
+        </ul>
+        <p class="copyright" style="color: white">Copyright &copy; by Jolie Pham. All rights reserved.</p>
+      </footer>
+    </main>
+  </body>
+</html>

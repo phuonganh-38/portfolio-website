@@ -1,0 +1,419 @@
+@font-face {
+  font-family: "Inter";
+  src: url("font/Inter-Regular.otf") format("truetype");
+  font-weight: 400; /* Regular */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("font/Inter-Medium.otf") format("truetype");
+  font-weight: 500; /* Medium */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("font/Inter-SemiBold.otf") format("truetype");
+  font-weight: 700; /* Bold */
+  font-style: normal;
+}
+
+.margin-10 {
+  margin-bottom: 10px;
+}
+
+/* TEXT FONTS & COLORS */
+.heading {
+  font-family: "Inter";
+  font-size: 28px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin-bottom: 1.6rem;
+  letter-spacing: 0.07px;
+  line-height: 1.14em;
+  display: block;
+}
+
+.text-header {
+  font-family: "Inter";
+  color: #1d1d1f;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 1.2;
+  letter-spacing: -.038em;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.text-header a {
+  color: #1d1d1f !important;
+}
+
+.text-subheader {
+  font-family: "Inter";
+  font-weight: 500;
+  color: #6e6e73;
+  font-size: 12px;
+  text-align: left;
+}
+
+.text-content {
+  font-family: "Inter";
+  font-size: 15px;
+  font-weight: 400;
+  color: #6e6e73;
+  letter-spacing: -0.018em;
+  line-height: 1.3;
+}
+
+.largetext-1 {
+  font-family: "Roboto Bold", Roboto, sans-serif;
+  line-height: 1.2em;
+  font-size: 40px;
+  font-weight: 500;
+  color: black;
+}
+
+.largetext-2 {
+  font-family: "Roboto Bold", Roboto, sans-serif;
+  line-height: 1.4em;
+  font-size: 80px;
+  font-weight: 700;
+  color: #04335a;
+  margin-bottom: 35px;
+}
+
+.self-intro {
+  font-family: "Inter";
+  font-size: 20px;
+  line-height: 1.4;
+  margin-top: 25px;
+}
+.strong {
+  font-weight: 600 !important;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.grid-center-vertical {
+  align-items: center;
+}
+
+.margin-bottom-md {
+  margin-bottom: 4rem !important;
+}
+
+/* HEADER */
+
+.name {
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 2.5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.name a {
+  color: black;
+}
+
+.main-nav-list {
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
+}
+
+.main-nav-list a {
+  color: black;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.15s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #cf711f;
+}
+
+/* HOME */
+.home {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9rem;
+  align-items: center;
+}
+
+.intro {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  gap: 4rem;
+  align-items: center;
+}
+
+.profile-picture {
+  height: 560px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-picture img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* ABOUT ME */
+.container-1 {
+  font-family: "Inter";
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 55px;
+  align-items: center;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: flex-start; 
+  padding: 20px;
+}
+
+.number {
+  font-size: 80px;
+  font-weight: 700;
+  color: #909090;
+  margin-bottom: 12px;
+  padding-top: 0;
+}
+
+.heading-skills {
+  font-family: "Inter";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.skill-description {
+  font-family: "Inter";
+  font-size: 18px;
+  line-height: 1.3;
+  margin-bottom: -0.2rem;
+}
+
+.skill-img-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.skill-img {
+  width: 450px;
+}
+
+.skills div:last-child {
+  margin-top: auto;
+  padding-bottom: 5px;
+}
+
+.home-learn-more a {
+  margin-top: 15px;
+  font-weight: 500;
+}
+
+/* PROJECTS & BLOG */
+.project-content {
+  background-color: #f8f8f8;
+  width: 300px;
+  height: 440px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  transition: all 0.15s;
+}
+
+
+.project-content img {
+  height: 180px;
+  width: auto;
+}
+
+.project-content div:last-child {
+  margin-top: auto;
+  padding-bottom: 5px;
+}
+
+.project-content:hover {
+  transform: translateY(-1rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+}
+
+.blog-content {
+  background-color: #f8f8f8;
+  width: 300px;
+  height: 320px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  transition: all 0.15s;
+}
+
+.blog-content div:last-child {
+  margin-top: auto;
+  padding-bottom: 5px;
+}
+
+.blog-content:hover {
+  transform: translateY(-1rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+}
+
+.all-blogs {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  color: black !important;
+}
+
+.resume-pdf {
+  width: 100%;
+  height: 1125px;
+}
+
+
+/* BUTTON */
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
+
+.no-margin {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+  row-gap: 20px;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  border: solid 0px rgb(229, 231, 235);
+  font-feature-settings: normal;
+  font-variation-settings: normal;
+  line-height: 20px;
+  text-size-adjust: 100%;
+  unicode-bidi: isolate;
+}
+
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
+
+.grid-aboutme {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 4rem;
+  row-gap: 5rem;
+  align-items: center;
+}
+
+.grid-2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+
+.footer {
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+
+.social-links-header {
+  list-style: none;
+  display: flex;
+  justify-content: right;
+  gap: 30px;
+  padding: 0 30px;
+}
+
+.social-links-footer {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.social-icon {
+  height: 2rem;
+  width: 2rem;
+}
+
+.social-media:link,
+.social-media:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  transition: all 0.3s;
+}
+
+.social-media:hover,
+.social-media:active {
+  color: #555;
+}
+
+.copyright {
+  font-family: "Inter";
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
