@@ -12,26 +12,165 @@
     pointer-events: none;
     visibility: hidden;
   }
-
 }
 
-@media (max-width: 770px) {
-  html {
+@media (max-width: 768px) {
+  body {
     font-size: 70%;
   }
-  .grid {
-    grid-template-columns: repeat(1, 1fr);
+
+  .container,
+  .container-1 {
+    width: 95%;
+    padding: 12px;
+  }
+
+  .main-nav {
+    display: none;
+  }
+
+  .btn-mobile-nav {
+    display: block;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  .icon-mobile-nav {
+    font-size: 30px;
+    color: #940b12;
+  }
+
+
+  .main-nav.open {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    background: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .name a {
+    font-size: 20px;
+  }
+
+  .social-icon {
+    height: 1rem;
+    width: 1rem;
+  }
+
+  .header {
+    grid-template-columns: 1fr;
+    height: auto;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .main-nav-list {
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .home,
+  .grid,
+  .grid-aboutme,
+  .grid-2-cols {
+    grid-template-columns: 1fr !important;
+    gap: 2rem;
+  }
+
+  .profile-picture {
+    height: 320px;
+  }
+
+  .profile-picture img,
+  .skill-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .project-content,
+  .blog-content {
+    width: 100%;
+    height: auto;
+    padding: 12px;
+  }
+
+  .heading {
+    font-size: 22px;
+  }
+
+  .text-header {
+    font-size: 16px;
+  }
+
+  .text-subheader,
+  .text-content {
+    font-size: 12px;
+  }
+
+  .btn,
+  .btn:link,
+  .btn:visited {
+    font-size: 14px;
+    padding: 0.4rem 0.8rem;
+  }
+
+  .btn--full:link,
+  .btn--full:visited {
+    font-size: 13px;
+  }
+
+
+  .largetext-1 {
+    font-size: 28px;
+  }
+
+  .largetext-2 {
+    font-size: 45px;
+  }
+
+  .skill-description {
+    font-size: 15px;
+  }
+
+  .heading-skills {
+    font-size: 24px;
+  }
+
+  .number {
+    font-size: 50px;
+  }
+
+  .skill-img {
+    width: 250px;
+    height: auto;
+    object-fit: contain;
+    margin: 10px;
+  }
+  
+  
+  .skill-img-box {
+    justify-content: flex-start; 
+  }
+
+  .social-links-header {
+    justify-content: center;
+    gap: 15px;
+    padding: 0;
   }
 
   .resume-pdf {
-    height: 800px;
-}
-
-}
-
-@media (max-width: 480px) {
-  .resume-pdf {
-      height: 500px;
+    height: 80vh;
+    max-height: 600px;
+    padding: 10px;
   }
 }
 

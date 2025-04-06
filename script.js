@@ -1,11 +1,6 @@
-function updateHeaderWidth() {
-  const banner = document.querySelector(".banner");
-  const header = document.querySelector(".header");
+const btnMobileNav = document.querySelector('.btn-mobile-nav');
+const mainNav = document.querySelector('.main-nav');
 
-  if (banner && header) {
-    header.style.width = `${banner.clientWidth}px`;
-  }
-}
-
-window.addEventListener("load", updateHeaderWidth);
-window.addEventListener("resize", updateHeaderWidth);
+btnMobileNav.addEventListener('click', () => {
+  mainNav.classList.toggle('open');
+});
