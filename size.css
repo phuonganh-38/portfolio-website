@@ -37,7 +37,7 @@
   }
 
   .icon-mobile-nav {
-    font-size: 20px;
+    font-size: 15px;
     color: #333;
   }
 
@@ -45,11 +45,11 @@
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 100%;
+    top: 60px;
     right: 0;
     background-color: white;
     width: 100%;
-    z-index: 1000;
+    z-index: 999;
     padding: 1.5rem 0;
   }
 
@@ -82,14 +82,17 @@
     gap: 2rem;
   }
 
+  .intro {
+    padding: 0 20px;
+  }
+
   .self-intro {
-    font-family: "Inter";
     font-size: 15px;
-    line-height: 1.2;
+    line-height: 1.3;
   }
 
   .profile-picture {
-    height: 320px;
+    height: 280px;
   }
 
   .profile-picture img,
@@ -101,7 +104,7 @@
   .project-content,
   .blog-content {
     width: 90%;
-    min-height: 440px;
+    min-height: 400px;
     padding: 16px;
     margin: 0 auto;
   }
@@ -111,7 +114,7 @@
   }
 
   .text-header {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .text-subheader {
@@ -119,7 +122,7 @@
   }
 
   .text-content {
-    font-size: 15px;
+    font-size: 16px;
   }
 
   .btn,
@@ -156,7 +159,7 @@
   }
 
   .skill-img {
-    width: 250px;
+    width: 265px;
     height: auto;
     object-fit: contain;
     margin: 10px;
@@ -168,15 +171,16 @@
   }
 
   .social-links-header {
-    justify-content: center;
-    gap: 15px;
-    padding: 0;
+    display: none;
+  }
+
+  .resume-container {
+    padding: 0 0.5rem;
   }
 
   .resume-pdf {
-    height: 80vh;
-    max-height: 600px;
-    padding: 10px;
+    height: 85vh;
+    max-height: none;
   }
 }
 
